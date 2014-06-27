@@ -1,0 +1,107 @@
+/*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
+
+
+* { 
+	margin: 0;
+	padding: 0;
+
+}
+
+body, form, select, input{ 
+	font: 14px/1.6 Tahoma, Verdana, Calibri sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	line-height: 1.2em; 
+	font-weight: normal; 
+	margin-bottom: 0.2em; 
+}
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; text-align: center; padding-top: 3em; font-weight: bold}
+h3 { font-size: 1.8em; text-align: left;}
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; font-weight: bold;
+}
+
+a { 
+	text-decoration: none; 
+}
+
+p{
+    padding-bottom: 1.5em;
+}
+
+.nav-wrap{
+    height: 80px;
+    background-color: #000;
+}
+/*Navigation Position fixed TODO**/
+header{
+    width: 40%;
+    float: left;
+    background-color: #000;
+    color: white;
+}
+
+nav{
+    width: 60%;
+    float: right;
+    padding-top: 15px;
+    background-color: #000;
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+
+}
+
+.separate{
+    width:40%; /*Min Width TODO**/
+    margin: 0 auto;
+    border-bottom: 3px dashed #777777;
+}
+
+.article{
+    width: 60%;
+    margin: 0 auto;
+    height: 1000px; /*whole height TODO**/
+}
+
+.article-content{
+    float: left;
+}
+
+.article-image-right{
+
+}
+
+.article-image-left{
+
+}
+
+.article-footer{
+    border-bottom: 2px dashed #777777;
+}
+
+#link1{
+    background-color: #E72ABC;
+}
+
+#link2{
+    background-color: #7E1768;
+}
+
+#link3{
+    background-color: #C0229B;
+}
+
+#link4{
+    background-color: #7E1768;
+}
+
+#link5{
+    background-color: #E72ABC;
+}
