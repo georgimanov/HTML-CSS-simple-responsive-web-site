@@ -1,10 +1,8 @@
 /*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
 
-
-* { 
+* {
 	margin: 0;
 	padding: 0;
-
 }
 
 body, form, select, input{ 
@@ -40,7 +38,7 @@ p{
 /*Navigation Position fixed TODO**/
 header{
     width: 40%;
-    float: left;
+    float: l eft;
     background-color: #000;
     color: white;
 }
@@ -55,7 +53,25 @@ nav{
 ul li{
     display: inline-block;
     float: right;
+}
 
+.nav-wrap li a{
+    color: white;
+    padding: 10px;
+    height: 30px;
+}
+.nav-wrap li a:hover{
+    color: #E72ABC;
+    background-color: #7E1768;
+    border-radius: 5px;
+}
+
+.the-footer li a{
+    padding: 40px;
+    height: 32px;
+    color: #000000;
+    text-decoration: none;
+    display: inline;
 }
 
 .separate{
@@ -85,6 +101,8 @@ ul li{
 .article-footer{
     border-bottom: 2px dashed #777777;
 }
+
+.
 
 #link1{
     background-color: #E72ABC;
