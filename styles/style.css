@@ -1,9 +1,17 @@
 /*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
 
+@font-face {
+    font-family: logo-font;
+    src: url(../fonts/Minangkabau.TTF);
+    font-weight:bold;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
 }
+
 
 body, form, select, input {
 	font: 14px/1.6 Tahoma, Verdana, Calibri sans-serif;
@@ -17,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2.8em;
+    font-family: logo-font;
 }
 h2 {
 	font-size: 2.2em;
@@ -86,12 +95,20 @@ nav ul li a:hover {
 	border-radius: 5px;
 }
 
+.the-footer{
+    background-color: #000;
+
+
+}
+
 .the-footer li a {
 	padding: 40px;
 	height: 32px;
-	color: #000000;
+	color: #fff;
 	text-decoration: none;
-	display: inline;
+	display: inline-block;
+
+
 }
 
 .separate {
@@ -122,7 +139,9 @@ nav ul li a:hover {
 	border-bottom: 2px dashed #777777;
 }
 
-.
+.article.numTwo{
+    height: auto;
+}
 
 #link1 {
 	background-color: #E72ABC;
