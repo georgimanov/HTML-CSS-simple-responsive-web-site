@@ -119,6 +119,21 @@ nav ul li a:hover {
     background: url("../images/social-sprite.png") 588px 0;
 }
 
+.html5, .css3{
+    width: 83px;
+    height: 84px;
+    border-radius: 2px;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+}
+.html5 {
+    background: url("../images/html5.png");
+}
+.css3 {
+    background: url("../images/css3.png");
+}
+
 .separate {
 	width: 40%; /*Min Width TODO**/
 	margin: 0 auto;
