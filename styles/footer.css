@@ -1,0 +1,49 @@
+.foot-wrap{
+    width: 100%;
+    height: 120px;
+    background-color: pink;
+    display: inline-block;
+}
+
+.foot{
+    height: 100px;
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+    background-color: pink;
+    color: darkmagenta;
+}
+
+.one{
+    background: url("../../../THORN/trunk/images/logo.png") no-repeat;
+}
+
+.three{
+    background: url("../../../THORN/trunk/images/team-thorn-logo-small.png") no-repeat;
+}
+
+.fb{
+    margin-left: 120px;
+    width: 43px;
+    height: 43px;
+    background: url("../../../THORN/trunk/images/social-sprite.png") 168px 0;
+}
+
+
+
+.yt{
+    margin-left: 120px;
+    width: 43px;
+    height: 43px;
+    background: url("../../../THORN/trunk/images/social-sprite.png") 421px 0;
+}
+
+.foot h4{
+    margin-left: 120px;
+}
+
+footer li{
+    list-style: none;
+
+}
+

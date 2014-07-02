@@ -1,77 +1,27 @@
-/*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
-
-@font-face {
-    font-family: logo-font;
-
-    font-weight: bold;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5% Tahoma, Verdana, Calibri sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2rem;
-    font-weight: normal;
-    margin-bottom: 0.2rem;
-}
-
-h1 {
-    font-size: 2.8rem;
-    font-family: logo-font;
-}
-
-h2 {
-    font-size: 2.2rem;
-    text-align: center;
-    padding-top: 3rem;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 1.8rem;
-    text-align: left;
-}
-
-h4 {
-    font-size: 1.6rem;
-    padding-top: 1.5rem;
-}
-
-h5 {
-    font-size: 1.2rem;
-}
-
-h6 {
-    font-size: 1.0rem;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    padding-bottom: 1.5rem;
-}
 
 main section {
-    float: right;
-    width: 78%;
+
+    width: 60%;
 }
 
 main aside {
-
+    position: absolute;
+    top: 10%;
+    left: 0.5%;
     float: left;
-    width: 20%;
+    width: 15%;
+
 }
 
 main aside div {
 
     padding: 0rem 1.5rem;
+}
+
+article div div.image {
+    content: url(../images/peevski.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
 }
