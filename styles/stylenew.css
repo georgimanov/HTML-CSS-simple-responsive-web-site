@@ -1,0 +1,51 @@
+/*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body, form, select, input {
+	font: 14px/1.6 Tahoma, Verdana, Calibri sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2rem;
+	font-weight: normal;
+	margin-bottom: 0.2rem;
+}
+
+h1 {
+	font-size: 2.8rem;
+    font-family: logo-font;
+}
+h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	padding-top: 3rem;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.8rem;
+	text-align: left;
+}
+h4 {
+	font-size: 1.6rem;
+}
+h5 {
+	font-size: 1.2rem;
+}
+h6 {
+	font-size: 1.0rem;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-bottom: 1.5rem;
+}
+
