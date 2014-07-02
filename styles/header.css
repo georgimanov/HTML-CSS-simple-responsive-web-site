@@ -1,0 +1,125 @@
+/*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html{
+	font: 62.5% Tahoma, Verdana, Calibri sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2rem;
+	font-weight: normal;
+	margin-bottom: 0.2rem;
+}
+
+h1 {
+	font-size: 2.8rem;
+}
+h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	padding-top: 3rem;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.8rem;
+	text-align: left;
+}
+h4 {
+	font-size: 1.6rem;
+}
+h5 {
+	font-size: 1.2rem;
+}
+h6 {
+	font-size: 1.0rem;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-bottom: 1.5rem;
+}
+/*Header**/
+
+
+.wrap{
+    width: 100%;
+    height: auto;
+    background-color: deepskyblue;
+    margin: 0 auto;
+}
+
+.logo-container{
+    width: 100%;
+    height: 100px;
+    background-image: url("../images/team-thorn-logo.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul ul{
+    display: none;
+}
+
+.nav ul li:hover > ul{
+    display: block;
+}
+
+.nav ul{
+    padding: 0 20px;
+    border-radius: 1px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+.nav ul li{
+    float: right;
+}
+.nav ul li a{
+    padding: 5px 10px 5px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav ul li:hover{
+    background: darkgreen;
+}
+
+.nav ul li:hover a{
+    color: pink;
+}
+.nav ul li:hover > ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li:hover > ul li{
+    float: none;
+    display: block;
+}
+
+.nav ul li:hover > ul li a:hover{
+    color: pink;
+}
+
+.nav ul li{
+    position: relative;
+}
+
+.nav ul li ul{
+    /*TODO**/
+}
