@@ -4,11 +4,10 @@
 }
 
 #contact_form {
-    text-shadow:0 1px 0 #FFF;
     border-radius:4px;
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
-    background:#F9F9F9;
+    background:#74b26d;
     padding:25px;
 }
 
@@ -16,7 +15,7 @@
 #ff label {
     cursor:pointer;
     margin:4px 0;
-    color:#ed7700;
+    color:#bfdc70;
     display:block;
     font-weight:800;
 
@@ -59,7 +58,7 @@ textarea {
     -webkit-border-radius:16px;
     -moz-border-radius:16px;
     border-radius:16px;
-    border:1px solid #eeb44f;
+    border:1px solid #e2e475;
     color:#ffffff;
     font-family:Arial;
     font-size:14px;
