@@ -4,6 +4,18 @@ div {
 	margin: 0;
 }
 
+h2 {
+	text-align: center;
+}
+
+#rightPost {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-top: 10px;
+}
 
 #spoiler {
 	box-sizing: border-box;
