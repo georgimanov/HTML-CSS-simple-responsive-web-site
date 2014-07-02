@@ -5,6 +5,7 @@
     <title>Team "THORN"|Contact us</title>
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="styles/style-contact-form.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
@@ -13,12 +14,12 @@
         <form name="form1" id="ff" method="post" action="insert.php">
             <h1>Свържете се с нас</h1>
             <label>
-                <span>Име*:</span>
+                <span>Име:</span>
                 <input type="text" placeholder="Моля, въведете вашето име" name="name" id="name" required autofocus>
             </label>
 
             <label>
-                <span>Адрес*:</span>
+                <span>Адрес:</span>
                 <input type="text" placeholder="Моля, въведете вашият адрес" name="city" id="city" required>
             </label>
 
@@ -28,15 +29,15 @@
             </label>
 
             <label>
-                <span>Email*:</span>
+                <span>Email:</span>
                 <input type="email" placeholder="Моля, въведете вашият e-mail" name="email" id="email" required>
             </label>
             <label>
-                <span>Съобщение*:</span>
+                <span>Съобщение:</span>
                 <textarea rows="10" cols="40" placeholder="Вашето съобщение"></textarea>
             </label>
 
-            <input class="sendButton" type="submit" name="Submit" value="Изпрати">
+            <input class="sendButton" type="submit" name="Submit" value="Изпрати" disabled >
 
         </form>
     </div>
