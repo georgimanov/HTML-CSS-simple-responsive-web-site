@@ -1,121 +1,120 @@
 .team-members {
 
-    display: inline-block;
+    display:inline-block;
 
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left:5%;
+    margin-right:5%;
 
 }
 
 .team {
 
-    box-sizing: border-box;
-    width: 90%;
-    float: left;
+    box-sizing:border-box;
+    width:90%;
+    float:left;
 
 }
 
 img {
 
-    float: left;
+    float:left;
 
-    max-width: 100%;
-    max-height: 100%;
-    margin-right: 3rem;
-    display: block;
+    max-width:100%;
+    max-height:100%;
+    margin-right:3rem;
+    display:block;
 }
 
 article div {
-    margin-bottom: 5rem;
+    margin-bottom:5rem;
 
 }
 
 .team p {
-    word-wrap: break-word;
+    word-wrap:break-word;
 }
 
 #georgi {
 
-    float: right;
+    float:right;
 
 }
 
 #velimir {
-
-    float: right;
+    float:right;
 }
 
 main aside {
-    position: absolute;
-    top: 200px;
-    left: 0.5%;
-    float: left;
-    width: 13%;
+    position:absolute;
+    top:200px;
+    left:0.5%;
+    float:left;
+    width:13%;
 
 }
 
 main aside div {
-    padding: 0 1%;
-    padding-bottom: 15px;
-    text-align: justify;
+    padding:0 1%;
+    padding-bottom:15px;
+    text-align:justify;
 }
 
 .left {
-    opacity: 0.7;
+    opacity:0.7;
 
-    background-color: #bfdc70;
-    border-radius: 10px;
-    padding: 0.5%;
+    background-color:#bfdc70;
+    border-radius:10px;
+    padding:0.5%;
 }
 
 .left cite {
-    font-size: 1.2rem;
+    font-size:1.2rem;
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width:960px) {
 
     body aside {
-        position: relative;
-        box-sizing: border-box;
-        width: 100%;
-        overflow: hidden;
+        position:relative;
+        box-sizing:border-box;
+        width:100%;
+        overflow:hidden;
 
-        top: 0;
-        left: 0;
+        top:0;
+        left:0;
     }
 
     .left {
-        padding-top: 10px;
-        padding-bottom: 12px;
-        padding-left: 5%;
-        padding-right: 5%;
-        border-radius: 0;
+        padding-top:10px;
+        padding-bottom:12px;
+        padding-left:5%;
+        padding-right:5%;
+        border-radius:0;
     }
 
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width:640px) {
 
     article div img {
-        display: none;
+        display:none;
     }
 
     body aside {
-        position: relative;
-        box-sizing: border-box;
-        width: 100%;
-        overflow: hidden;
+        position:relative;
+        box-sizing:border-box;
+        width:100%;
+        overflow:hidden;
 
-        top: 0;
-        left: 0;
+        top:0;
+        left:0;
     }
 
     .left {
-        padding-top: 10px;
-        padding-bottom: 12px;
-        padding-left: 5%;
-        padding-right: 5%;
-        border-radius: 0;
+        padding-top:10px;
+        padding-bottom:12px;
+        padding-left:5%;
+        padding-right:5%;
+        border-radius:0;
     }
 
 }

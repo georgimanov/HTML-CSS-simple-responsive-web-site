@@ -1,5 +1,5 @@
 .wrapper {
-    margin: 47px auto;
+    margin:47px auto;
     max-width:580px;
 }
 
@@ -18,7 +18,7 @@
     color:#bfdc70;
     display:block;
     font-weight:800;
-    font-size: 1.8rem;
+    font-size:1.8rem;
 
 }
 
@@ -66,7 +66,7 @@ textarea {
     width:25%;
     font-weight:bold;
     text-shadow:1px 1px 0px #cc9f52;
-    min-width: 100px;
+    min-width:100px;
 }
 .sendButton:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );

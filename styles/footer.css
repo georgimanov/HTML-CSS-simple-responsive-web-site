@@ -1,59 +1,54 @@
 .foot-wrap{
-    width: 100%;
-    min-heightheight: 200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background: #e2e475;
-    padding: 0;
+    width:100%;
+    min-height:250px;
+    margin:0 auto;
+    box-sizing:border-box;
+    background:#e2e475;
+    padding:0;
 
 }
 
 .foot{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 22.5%;
-    float: left;
-    opacity: 0.7;
-    margin-top: 20px;
-    margin-left: 5.4%;
-    margin-right: 5.4%;
-    display: inline-block;
-    background: #e2e475;
-    min-width: 150px;
-    padding: 20px;
-    min-height: 180px;
+    box-sizing:border-box;
+    display:inline-block;
+    width:22.5%;
+    float:left;
+    margin-top:20px;
+    margin-left:5.4%;
+    margin-right:5.4%;
+    background:#e2e475;
+    min-width:150px;
+    padding:20px;
+    min-height:180px;
 }
 
 .foot .logo{
-    margin-left: 20%;
+    margin-left:20%;
 }
 
 
 .foot h4, p{
-    text-align: center;
+    text-align:center;
 }
 
-@media all and (max-width: 680px) {
+@media all and (max-width:680px) {
     .foot {
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 45%;
+        margin-left:2%;
+        margin-right:2%;
+        width:45%;
     }
     #foot-team{
-        width: 94%;
+        width:94%;
 
     }
     .foot .logo{
-        margin-left: 30%;
+        margin-left:30%;
     }
-
-
 }
 
-
-@media all and (max-width: 480px) {
+@media all and (max-width:480px) {
     .foot {
-        width: 95%;
-        min-height: 0;
+        width:95%;
+        min-height:0;
     }
 }
