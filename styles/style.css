@@ -96,9 +96,9 @@ body{
 
 section{
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     background-color: #74b26d;
-    padding: 10px 20px;
+    padding: 2% 5%;
 }
 article{
     padding: 2%;
@@ -145,6 +145,58 @@ p{
     font-size: 1.8rem;
     line-height: 2.2rem;
     text-align: justify;
+}
+
+@media all and (max-width: 960px) {
+    body section {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    body section article {
+        box-sizing: border-box;
+        width: 99%;
+    }
+
+}
+
+@media all and (max-width: 780px) {
+    body section > header nav ul {
+        justify-content: space-between;
+    }
+
+    body section > header nav ul li {
+        width: 23%;
+    }
+
+    body section > header h1 a {
+        justify-content: center;
+    }
+
+}
+
+@media all and (max-width: 640px) {
+    body section > section {
+        width: 100%;
+    }
+
+    body section > aside {
+        width: 100%;
+    }
+
+    body section > header nav ul li {
+        width: 100%;
+    }
+
+    body section > aside div {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    body aside{
+        display: none;
+    }
 }
 
 

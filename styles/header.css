@@ -1,73 +1,34 @@
-/*Tahoma, "Lucida Sans", Calibri, Verdana- sans-serif fonts**/
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-
-html{
-	font: 62.5% Tahoma, Verdana, Calibri sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1.2rem;
-	font-weight: normal;
-	margin-bottom: 0.2rem;
-}
-
-h1 {
-	font-size: 2.8rem;
-}
-h2 {
-	font-size: 2.2rem;
-	text-align: center;
-	padding-top: 3rem;
-	font-weight: bold;
-}
-h3 {
-	font-size: 1.8rem;
-	text-align: left;
-}
-h4 {
-	font-size: 1.6rem;
-}
-h5 {
-	font-size: 1.2rem;
-}
-h6 {
-	font-size: 1.0rem;
-	font-weight: bold;
-}
-
-a {
-	text-decoration: none;
-}
-
-p {
-	padding-bottom: 1.5rem;
-}
-/*Header**/
-
 
 .wrap{
     width: 100%;
     height: auto;
-    background-color: deepskyblue;
-    margin: 0 auto;
+    background-color: #e2e475;
+    margin: 0;
+
+}
+a{
+    color: #4b8d6c;
+    font-size: 1.6rem;
 }
 
 .logo-container{
-    width: 100%;
-    height: 100px;
+    width: 30%;
+    height: 140px;
     background-image: url("../images/team-thorn-logo.png");
     background-repeat: no-repeat;
     display: inline-block;
 
 }
+.nav{
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+
 
 .nav ul{
     float: right;
+    margin-top: -20px;
 }
 
 .nav ul ul{
@@ -80,7 +41,6 @@ p {
 
 .nav ul{
     padding: 0 20px;
-    border-radius: 1px;
     list-style: none;
     position: relative;
     display: inline-block;
@@ -96,11 +56,11 @@ p {
 }
 
 .nav ul li:hover{
-    background: darkgreen;
+    background: #4b8d6c;
 }
 
 .nav ul li:hover a{
-    color: pink;
+    color: #e2e475;
 }
 .nav ul li:hover > ul{
     margin: 0;
@@ -113,7 +73,9 @@ p {
 }
 
 .nav ul li:hover > ul li a:hover{
-    color: pink;
+
+    color: #e2e475;
+    background-color: #4b8d6c;
 }
 
 .nav ul li{
@@ -122,4 +84,35 @@ p {
 
 .nav ul li ul{
     /*TODO**/
+}
+
+@media only screen and (max-width: 680px) {
+    .logo-container, .nav {
+        width: 100%;
+        display: block;
+    }
+
+    .nav ul li {
+        width: 100%;
+        float: right;
+        display: block;
+        text-align: center;
+
+    }
+
+    .logo-container {
+        width: 100%;
+        height: 100px;
+        display: block;
+
+    }
+
+    .nav {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+    .nav ul{
+        margin-top: 0;
+    }
 }

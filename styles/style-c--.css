@@ -4,8 +4,20 @@ div {
 	margin: 0;
 }
 
+h2 {
+	text-align: center;
+}
+
+#rightPost {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-top: 10px;
+}
+
 #spoiler {
-	border: 1px solid black;
 	box-sizing: border-box;
 	width: 100%;
 	height: 291px;
@@ -13,24 +25,26 @@ div {
 
 #lines {
 	box-sizing: border-box;
-	border-right: 1px solid black;
-	width: 5%;
+	border: 1px solid black;
+	width: 2.5rem;
 	text-align: left;
 	background-color: #B8B8B8;
 	color: #BF0404;
 	float: left;
-	max-width : 4%;
+	height: 100%;
 }
 
 #code {
 	box-sizing: border-box;
-	width: 96%;
+	border: 1px solid black;
+	width: 80%;
 	height: 100%;
 	text-align: left;
 	vertical-align: top;
 	background-color: #273259;
 	color: #B8B8B8;
 	float: left;
+	overflow: auto;
 }
 
 #lines pre {
