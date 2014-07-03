@@ -1,7 +1,7 @@
 .foot-wrap{
     width: 100%;
     height: 120px;
-    background-color: pink;
+    background-color: #e2e475;
     display: inline-block;
 }
 
@@ -10,23 +10,24 @@
     width: 33%;
     float: left;
     margin-top: 10px;
-    background-color: pink;
-    color: darkmagenta;
+    background-color: #e2e475;
+    color: #4b8d6c;
 }
 
 .one{
-    background: url("../../../THORN/trunk/images/logo.png") no-repeat;
+    background: url("../images/logo.png") no-repeat;
+
 }
 
 .three{
-    background: url("../../../THORN/trunk/images/team-thorn-logo-small.png") no-repeat;
+    background: url("../images/team-thorn-logo-small.png") no-repeat;
 }
 
 .fb{
     margin-left: 120px;
     width: 43px;
     height: 43px;
-    background: url("../../../THORN/trunk/images/social-sprite.png") 168px 0;
+    background: url("../images/social-sprite.png") 168px 0;
 }
 
 
@@ -35,7 +36,7 @@
     margin-left: 120px;
     width: 43px;
     height: 43px;
-    background: url("../../../THORN/trunk/images/social-sprite.png") 421px 0;
+    background: url("../images/social-sprite.png") 421px 0;
 }
 
 .foot h4{
@@ -47,3 +48,68 @@ footer li{
 
 }
 
+@media only screen and (max-width: 960px) {
+    .foot-wrap{
+        height: 200px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .foot-wrap{
+        background-color: #e2e475;
+    }
+    .foot{
+        margin: 0;
+        width: 100%;
+        display: block;
+        height: 200px;
+        background-color: #e2e475;
+    }
+    p{
+        font-size: 12px;
+    }
+    h4{
+        display: none;
+    }
+
+    .fb{
+        position: absolute;
+        top: 63px;
+        left: 3px;
+        width: 43px;
+        height: 43px;
+        background: url("../images/social-sprite.png") 168px 0;
+        display: inline-block;
+    }
+
+
+
+    .yt{
+        position: absolute;
+        top: 63px;
+        left: -43px;
+        width: 43px;
+        height: 43px;
+        background: url("../images/social-sprite.png") 421px 0;
+        display: inline-block;
+    }
+    .one{
+        width: 50%;
+        box-sizing: border-box;
+        background: url("../images/logo.png") no-repeat;
+        display: inline-block;
+    }
+
+    .three{
+        width: 50%;
+        box-sizing: border-box;
+        background: url("../images/team-thorn-logo-small.png") no-repeat;
+        display: inline-block;
+    }
+}
