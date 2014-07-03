@@ -1,7 +1,72 @@
-
-
-pre{
-    font-size: 2rem;
-    padding: 1rem;
+article{
+    border-bottom: 1px solid #bfdc70;
 }
 
+.video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.video h2{
+    font-weight: bold;
+    padding: 10px;
+    line-height: 3rem;
+
+}
+.video h3{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.video .inline{
+    padding: 0;
+    font-size: 1.4rem;
+}
+.video ul li {
+    margin: 5px 10px 0px 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.date{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.name-author a{
+    font-size: 1.4rem;
+}
+
+p{
+    line-height: 2.2rem;
+    padding-top: 20px;
+}
+.flow-player iframe{
+    width : 560px;
+    height : 315px;
+}
+
+@media all and (max-width: 960px) {
+    .flow-player iframe{
+        width : 476px;
+        height : 267px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .flow-player iframe{
+        width : 392px;
+        height : 221px;
+    }
+    section article pre{
+        font-size: 1.8rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .flow-player iframe{
+        width : 224px;
+        height : 126px;
+    }
+}
