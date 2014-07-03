@@ -45,23 +45,29 @@ article{
 p{
     line-height:2.2rem;
     padding-top:20px;
+    padding-bottom: 20px;
 }
 .flow-player iframe{
-    width :560px;
-    height :315px;
+    width:560px;
+    height:315px;
+}
+
+.audio-player{
+    height:20px;
+    margin-bottom: 20px;
 }
 
 @media all and (max-width:960px) {
     .flow-player iframe{
-        width :476px;
-        height :267px;
+        width:476px;
+        height:267px;
     }
 }
 
 @media all and (max-width:640px) {
     .flow-player iframe{
-        width :392px;
-        height :221px;
+        width:392px;
+        height:221px;
     }
     section article pre{
         font-size:1.8rem;
@@ -70,7 +76,7 @@ p{
 
 @media all and (max-width:480px) {
     .flow-player iframe{
-        width :224px;
-        height :126px;
+        width:224px;
+        height:126px;
     }
 }
