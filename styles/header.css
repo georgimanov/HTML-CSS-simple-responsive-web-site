@@ -11,7 +11,8 @@ html, body {
     padding: 0;
 
 }
-a{
+
+a {
     color: #4b8d6c;
     font-size: 1.6rem;
 }
@@ -28,12 +29,14 @@ a{
     width: 60%;
     height: 100px;
     display: inline-block;
+    
 }
 
 
 .nav ul{
     float: right;
-    margin-top: -20px;
+    margin-top: 20px;
+   
 }
 
 .nav ul ul{
