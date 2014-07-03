@@ -179,9 +179,7 @@ img{
         justify-content:space-between;
     }
 
-    body section > header nav ul li {
-        width:23%;
-    }
+
 
     body section > header h1 a {
         justify-content:center;
