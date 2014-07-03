@@ -158,6 +158,10 @@ main section article p{
     text-align: justify;
 }
 
+img{
+    max-width: 100%;
+}
+
 @media all and (max-width: 960px) {
     body section {
         box-sizing: border-box;
