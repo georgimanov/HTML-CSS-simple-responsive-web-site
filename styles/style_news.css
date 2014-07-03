@@ -1,6 +1,6 @@
 main aside {
     position: absolute;
-    top: 10%;
+    top: 180px;
     left: 0.5%;
     float: left;
     width: 13%;
@@ -22,6 +22,9 @@ main aside div {
 
 .left cite{
     font-size: 1.2rem;
+}
+.article-news p{
+    text-align: justify;
 }
 
 article div div.image {

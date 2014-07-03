@@ -29,6 +29,10 @@ article{
     padding-bottom: 10px;
 }
 
+.video p{
+    text-align:justify;
+}
+
 .date{
     font-size: 1.2rem;
     font-style: italic;

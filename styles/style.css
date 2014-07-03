@@ -147,6 +147,17 @@ p{
     text-align: justify;
 }
 
+main section article header{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+main section article p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
 @media all and (max-width: 960px) {
     body section {
         box-sizing: border-box;
