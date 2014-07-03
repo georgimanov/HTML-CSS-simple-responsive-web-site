@@ -24,19 +24,15 @@
 }
 
 .fb{
+    color: #4b8d6c;
     margin-left: 120px;
-    width: 43px;
-    height: 43px;
-    background: url("../images/social-sprite.png") 168px 0;
+    font-size: 1.4rem;
 }
 
-
-
 .yt{
+    color: #4b8d6c;
     margin-left: 120px;
-    width: 43px;
-    height: 43px;
-    background: url("../images/social-sprite.png") 421px 0;
+    font-size: 1.4rem;
 }
 
 .foot h4{
@@ -46,6 +42,10 @@
 footer li{
     list-style: none;
 
+}
+
+img{
+    margin-left: 20%;
 }
 
 @media only screen and (max-width: 960px) {
@@ -79,25 +79,20 @@ footer li{
     }
 
     .fb{
-        position: absolute;
-        top: 63px;
-        left: 3px;
-        width: 43px;
-        height: 43px;
-        background: url("../images/social-sprite.png") 168px 0;
-        display: inline-block;
+    display: block;
+        margin-top: 100px;
+        margin-left: 80%;
+        font-weight: bold;
+
+    }
+    .yt{
+     display: block;
+        margin-left: 80%;
+        font-weight: bold;
     }
 
-
-
-    .yt{
-        position: absolute;
-        top: 63px;
-        left: -43px;
-        width: 43px;
-        height: 43px;
-        background: url("../images/social-sprite.png") 421px 0;
-        display: inline-block;
+    #hid, #hid1{
+        display: none;
     }
     .one{
         width: 50%;
@@ -111,5 +106,8 @@ footer li{
         box-sizing: border-box;
         background: url("../images/team-thorn-logo-small.png") no-repeat;
         display: inline-block;
+    }
+    img{
+        margin-left: 30%;
     }
 }
