@@ -86,6 +86,33 @@ a{
     /*TODO**/
 }
 
+@media only screen and (max-width: 1024px) {
+    .logo-container {
+		height: 140px;
+        width: 40%;
+		display: inline-block;
+    }
+	.nav {
+	    height: 100px;
+        width: 50%;
+        display: inline-block;
+		vertical-align: top;
+		margin-top: 20px;
+    }
+
+    .nav ul{
+        margin-top: 0;
+    }
+	
+	.nav ul li {
+        width: 50%;
+        float: left;
+        display: block;
+        text-align: center;
+
+    }	
+}
+
 @media only screen and (max-width: 680px) {
     .logo-container, .nav {
         width: 100%;
