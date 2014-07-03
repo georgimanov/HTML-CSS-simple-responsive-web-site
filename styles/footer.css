@@ -1,113 +1,59 @@
 .foot-wrap{
     width: 100%;
-    height: 120px;
-    background-color: #e2e475;
-    display: inline-block;
+    min-heightheight: 200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: red;
+    padding: 0;
+
 }
 
 .foot{
-    height: 100px;
-    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 22.5%;
     float: left;
-    margin-top: 10px;
-    background-color: #e2e475;
-    color: #4b8d6c;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+    display: inline-block;
+    background: #e2e475;
+    min-width: 150px;
+    padding: 20px;
+    min-height: 180px;
 }
 
-.one{
-    background: url("../images/logo.png") no-repeat;
-
-}
-
-.three{
-    background: url("../images/team-thorn-logo-small.png") no-repeat;
-}
-
-.fb{
-    color: #4b8d6c;
-    margin-left: 120px;
-    font-size: 1.4rem;
-}
-
-.yt{
-    color: #4b8d6c;
-    margin-left: 120px;
-    font-size: 1.4rem;
-}
-
-.foot h4{
-    margin-left: 120px;
-}
-
-footer li{
-    list-style: none;
-
-}
-
-img{
+.foot .logo{
     margin-left: 20%;
 }
 
-@media only screen and (max-width: 960px) {
-    .foot-wrap{
-        height: 200px;
-    }
-    p{
-        font-size: 14px;
-    }
-    h4{
-        display: none;
-    }
+
+.foot h4, p{
+    text-align: center;
 }
 
-@media only screen and (max-width: 680px) {
-    .foot-wrap{
-        background-color: #e2e475;
+@media all and (max-width: 680px) {
+    .foot {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 45%;
     }
-    .foot{
-        margin: 0;
-        width: 100%;
-        display: block;
-        height: 200px;
-        background-color: #e2e475;
-    }
-    p{
-        font-size: 12px;
-    }
-    h4{
-        display: none;
-    }
-
-    .fb{
-    display: block;
-        margin-top: 100px;
-        margin-left: 80%;
-        font-weight: bold;
+    #foot-team{
+        width: 94%;
 
     }
-    .yt{
-     display: block;
-        margin-left: 80%;
-        font-weight: bold;
-    }
-
-    #hid, #hid1{
-        display: none;
-    }
-    .one{
-        width: 50%;
-        box-sizing: border-box;
-        background: url("../images/logo.png") no-repeat;
-        display: inline-block;
-    }
-
-    .three{
-        width: 50%;
-        box-sizing: border-box;
-        background: url("../images/team-thorn-logo-small.png") no-repeat;
-        display: inline-block;
-    }
-    img{
+    .foot .logo{
         margin-left: 30%;
+    }
+
+
+}
+
+
+@media all and (max-width: 480px) {
+    .foot {
+        width: 95%;
+        min-height: 0;
     }
 }
