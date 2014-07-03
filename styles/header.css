@@ -1,178 +1,178 @@
 html, body {
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;
 }
 
 .wrap{
-    width: 100%;
-    height: auto;
-    background-color: #e2e475;
-    margin: 0;
-    padding: 0;
+    width:100%;
+    height:auto;
+    background-color:#e2e475;
+    margin:0;
+    padding:0;
 
 }
 
 a {
-    color: #4b8d6c;
-    font-size: 1.6rem;
+    color:#4b8d6c;
+    font-size:1.6rem;
 }
 
 .logo-container{
-    width: 30%;
-    height: 140px;
-    background-image: url("../images/team-thorn-logo.png");
-    background-repeat: no-repeat;
-    display: inline-block;
+    width:30%;
+    height:140px;
+    background-image:url("../images/team-thorn-logo.png");
+    background-repeat:no-repeat;
+    display:inline-block;
 
 }
 .nav{
-    width: 60%;
-    height: 100px;
-    display: inline-block;
+    width:60%;
+    height:100px;
+    display:inline-block;
     
 }
 
 
 .nav ul{
-    float: right;
-    margin-top: 20px;
+    float:right;
+    margin-top:20px;
    
 }
 
 .nav ul ul{
-    display: none;
+    display:none;
 }
 
 .nav ul li:hover > ul{
-    display: block;
+    display:block;
 }
 
 .nav ul{
-    padding: 0 20px;
-    list-style: none;
-    position: relative;
-    display: inline-block;
+    padding:0 20px;
+    list-style:none;
+    position:relative;
+    display:inline-block;
 }
 
 .nav ul li{
-    float: right;
+    float:right;
 }
 .nav ul li a{
-    padding: 5px 10px 5px 10px;
-    display: block;
-    text-decoration: none;
+    padding:5px 10px 5px 10px;
+    display:block;
+    text-decoration:none;
 }
 
 .nav ul li:hover{
-    background: #4b8d6c;
+    background:#4b8d6c;
 }
 
 .nav ul li:hover a{
-    color: #e2e475;
+    color:#e2e475;
 }
 .nav ul li:hover > ul{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 .nav ul li:hover > ul li{
-    float: none;
-    display: block;
+    float:none;
+    display:block;
 }
 
 .nav ul li:hover > ul li a:hover{
 
-    color: #e2e475;
-    background-color: #4b8d6c;
+    color:#e2e475;
+    background-color:#4b8d6c;
 }
 
 .nav ul li{
-    position: relative;
+    position:relative;
 }
 
 .nav ul li ul{
     /*TODO**/
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width:1024px) {
     .logo-container {
-        height: 140px;
-        width: 30%;
-        max-width : 180px;
-        display: inline-block;
-        position: relative;
-        left: 5%;
+        height:140px;
+        width:30%;
+        max-width :180px;
+        display:inline-block;
+        position:relative;
+        left:5%;
     }
 	.nav {
-        height: 100px;
-        width: 60%;
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 20px;
+        height:100px;
+        width:60%;
+        display:inline-block;
+        vertical-align:top;
+        margin-top:20px;
     }
 
     .nav ul{
-        margin-top: 0;
+        margin-top:0;
     }
 	
 	.nav ul li {
-        width: 50%;
-        float: left;
-        display: block;
-        text-align: center;
+        width:50%;
+        float:left;
+        display:block;
+        text-align:center;
 
     }	
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width:640px) {
 	.nav {
-        margin-left: -10%;
-        width: 100%;
-        height: 175px;
-        display: block;
-        position: relative;
+        margin-left:-10%;
+        width:100%;
+        height:175px;
+        display:block;
+        position:relative;
     }
 
     .logo-container{
-        width: 100%;
-        height: 100px;
-        display: block;
-        position: relative;
-        margin-left: 25%;
+        width:100%;
+        height:100px;
+        display:block;
+        position:relative;
+        margin-left:25%;
     }
 	
 	.nav ul {
-      padding: 0;
+      padding:0;
 	}
 
 	.nav ul li {
-        width: 50%;
-        float: left;
-        display: inline-block;
-        text-align: center;
+        width:50%;
+        float:left;
+        display:inline-block;
+        text-align:center;
     }
 
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:480px) {
 	.nav {
-      margin-left: -20%;
-      width: 100%;
-      height: 250px;
-      display: block;
-      position: relative;
+      margin-left:-20%;
+      width:100%;
+      height:250px;
+      display:block;
+      position:relative;
     }
 	
 	.logo-container{
       padding :0;
       margin :0;
-      box-sizing: border-box;
-      width: 100%;
-      height: 140px;
-      display: inline-block;
-      position: relative;
-      max-width : 180px;
+      box-sizing:border-box;
+      width:100%;
+      height:140px;
+      display:inline-block;
+      position:relative;
+      max-width :180px;
 		
     }
 	
@@ -181,10 +181,10 @@ a {
 	}
 
 	.nav ul li {
-      width: 100%;
-      display: block;
-      text-align: center;
-      margin-left: 20%;
+      width:100%;
+      display:block;
+      text-align:center;
+      margin-left:20%;
     }
 
 
