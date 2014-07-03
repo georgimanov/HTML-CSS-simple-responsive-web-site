@@ -1,7 +1,16 @@
+main aside {
+    position: absolute;
+    top: 10%;
+    left: 0.5%;
+    float: left;
+    width: 13%;
 
-main section {
+}
 
-    width: 60%;
+main aside div {
+    padding: 0 1%;
+    padding-bottom: 15px;
+
 }
 
 .team-members {
@@ -10,24 +19,45 @@ main section {
 
     margin-left: 5%;
     margin-right: 5%;
+
 }
 
 .team {
-    border: 1px solid red;
+
     box-sizing: border-box;
-    width: 45%;
+    width: 90%;
     float: left;
 
 }
 
-.team img {
+img {
 
     float: left;
 
     max-width: 100%;
     max-height: 100%;
-    margin: auto;
+    margin-right: 3rem;
     display: block;
+}
+
+article div {
+    margin-bottom: 5rem;
+
+}
+
+.team p {
+    word-wrap: break-word;
+}
+
+#georgi {
+
+    float: right;
+
+}
+
+#velimir {
+
+    float: right;
 }
 
 main aside {
@@ -35,26 +65,71 @@ main aside {
     top: 10%;
     left: 0.5%;
     float: left;
-    width: 15%;
+    width: 13%;
 
 }
 
 main aside div {
-
-    padding: 0rem 1.5rem;
+    padding: 0 1%;
+    padding-bottom: 15px;
 }
 
-div.image {
-    content: url(../images/peevski.jpg);
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
+.left {
+    opacity: 0.7;
+
+    background-color: #bfdc70;
+    border-radius: 10px;
+    padding: 0.5%;
 }
 
-@media (max-width: 800px) {
+.left cite {
+    font-size: 1.2rem;
+}
 
-    aside {
+@media all and (max-width: 960px) {
+
+    body aside {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+
+        top: 0;
+        left: 0;
+    }
+
+    .left {
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 0;
+    }
+
+}
+
+@media all and (max-width: 640px) {
+
+    article div img {
         display: none;
     }
+
+    body aside {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+
+        top: 0;
+        left: 0;
+    }
+
+    .left {
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 0;
+    }
+
 }
